@@ -1,0 +1,571 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    padding: 15px 0px;
+    background-color: #34495E;
+    height: 100%;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden
+}
+
+a.focus,
+a:focus,
+a.active {
+    outline: none;
+}
+
+#navbar-left section h2,
+#htmlcaption,
+#work h4,
+#action h4 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+#navtop-left {
+    width: 100%;
+}
+
+#navtop-right button {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #34495E;
+    border: 1px solid #34495E;
+    color: #758594;
+}
+
+#navtop-left li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#navtop {
+    background-color: #2C3E50;
+    padding: 7px;
+    color: #758594;
+    position: relative;
+    animation: topbar 4s ease-in-out 0s 1;
+}
+
+@keyframes topbar {
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.nav-top input {
+    background-color: #34495E;
+    border-radius: 20px;
+    border: 1px solid #34495E;
+    font-style: italic
+}
+
+#navbar-left {
+    color: white;
+}
+.item img {
+    width: 100%;
+}
+#navbar-left section {
+    position: absolute;
+    top: -10px;
+    left: 80px;
+}
+
+#navbar-left img {
+    position: relative;
+    animation: img 4s ease 0s 1;
+}
+
+@keyframes img {
+    0% {
+        right: -500px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+#navbar-left p {
+    position: relative;
+    animation: p 4s ease 0s 1;
+}
+
+@keyframes p {
+    0% {
+        bottom: -500px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+#navbar-left section h2 {
+    margin-bottom: 0;
+    position: relative;
+    animation: h2 4s linear 0s 1;
+}
+
+@keyframes h2 {
+    0% {
+        left: -500px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+#navbar-left span {
+    color: #FED37F;
+    position: relative;
+    animation: brand 7s ease-out 0s 1;
+}
+
+@keyframes brand {
+    0% {
+        top: -200px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+
+#myNavbar {
+    color: #917DAF;
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+    animation: nav 3s ease-in 0s 1;
+    position: relative;
+}
+
+@keyframes nav {
+    0% {
+        right: -700px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+#myNavbar ul {
+    float: right;
+    width: 100%
+}
+
+#myNavbar li a:active {
+    border-bottom: 2px solid #FED37F
+}
+
+#navigation.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:999999;
+    background-color: #34495E;
+    
+   
+}
+ 
+#nav {
+    background-color: #34495E;
+    border: 1px solid #34495E;
+	
+}
+
+#myNavbar li a:hover {
+    color: #758594;
+    background-color: #2C3E50;
+    border-radius: 10px;
+}
+
+.stripe {
+    position: relative;
+    top: 13px;
+    margin: 0 auto
+}
+
+.slider-wrapper {
+    width: 100%;
+}
+
+#slider {}
+
+#slider img:first-child {}
+
+#slider img:last-of-type {
+    margin-top: -13px
+}
+
+#show-about {
+    background-image: url(../img/stars.png)
+}
+
+.showcase {
+    padding: 70px 0px;
+    color: #758594;
+}
+
+.showcase h4 {
+    color: white;
+    position: relative;
+    animation: showcase 5s ease-in 4s 1;
+}
+
+@keyframes showcase {
+    0% {
+        right: -700px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.showcase li {
+    width: 33.33%;
+    float: left;
+}
+
+.showcase ul {
+    display: flex;
+    justify-content: space-between
+}
+
+.showcase li img {
+    position: relative;
+    animation: showimg 5s ease-in 4s 1;
+}
+
+@keyframes showimg {
+    0% {
+        left: -700px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.showcase li p {
+    position: relative;
+    animation: showp 5s ease-in 4s 1;
+}
+
+@keyframes showp {
+    0% {
+        bottom: -300px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+.atechlove {
+    padding: 50px 0;
+}
+
+.atechlove li {
+    margin-bottom: 20px
+}
+
+.atechlove h4 {
+    padding-bottom: 20px;
+    color: white;
+    font-style: italic
+}
+
+.atechlove h2 {
+    text-transform: uppercase;
+    color: white
+}
+
+.atechlove p {
+    color: #758594
+}
+
+.atechlove img {
+    position: relative;
+    bottom: 20px;
+}
+
+.atechlove img:first-child {
+    width: 82%;
+    position: relative;
+    animation: atechimg 10s linear 0s infinite;
+}
+
+@keyframes atechimg {
+    0% {
+        transform: rotate(360deg)
+    }
+}
+
+.atechlove img:last-child {
+    position: relative;
+    bottom: 130px;
+    right: 50px;
+    width: 34%
+}
+
+.atechlove li:last-child p:last-child {
+    margin-top: 30px
+}
+
+#work {
+    text-align: center;
+    background-color: #85D6DE;
+    padding: 50px 0;
+}
+
+#work h4 {}
+
+#work ul {}
+
+#work li {
+    float: left;
+    width: 16.66%;
+    opacity: 0.7;
+    height: 200px
+}
+
+#work li p {
+    margin-top: 40%;
+    color: #fff;
+    opacity: 0.7
+}
+
+#work li:hover {
+    opacity: 1.0
+}
+
+#work li:nth-child(1) {
+    background-image: url(../img/work1.jpg);
+}
+
+#work li:nth-child(2) {
+    background-image: url(../img/work2.jpg)
+}
+
+#work li:nth-child(3) {
+    background-image: url(../img/work3.jpg)
+}
+
+#work li:nth-child(4) {
+    background-image: url(../img/work4.jpg)
+}
+
+#work li:nth-child(5) {
+    background-image: url(../img/work5.jpg)
+}
+
+#work li:nth-child(6) {
+    background-image: url(../img/work3.jpg);
+}
+
+#action {
+    color: white;
+    padding: 50px 0
+}
+
+#action-left ul li,
+#action-right ul li {
+    padding: 14px;
+}
+
+#action-left,
+#action-right {
+    border: 2px solid #758594;
+    border-radius: 5px;
+}
+
+#action-left {
+    position: relative;
+    animation: actionl 5s ease-in 10s 1
+}
+
+@keyframes actionl {
+    0% {
+        left: -500px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+#action-right {
+    position: relative;
+    animation: actionr 5s ease-in 10s 1
+}
+
+@keyframes actionr {
+    0% {
+        right: -500px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+#action-mid {
+    padding: 13px 8px;
+    border: 2px solid #758594;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+#action h4 {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px
+}
+
+#footer h5 {
+    font-weight: bold
+}
+
+.footer-top {
+    border-bottom: 2px solid #2C3E50;
+    padding: 30px 0;
+    color: white
+}
+
+.footer-top p {
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+    line-height: 30px;
+}
+
+.footer-top>button {
+    background-color: #099BD5;
+    border: 1px solid #099BD5;
+    color: #99DEF8;
+    float: right;
+    padding: 1px 10px;
+    position: relative;
+    animation: topbutton 5s ease 15s 1;
+}
+
+@keyframes topbutton {
+    0% {
+        right: 0;
+        transform: rotate(0deg);
+    }
+    25% {
+        right: 0;
+        transform: rotate(60deg);
+    }
+    50% {
+        right: 200px;
+        transform: rotate(120deg);
+    }
+    55% {
+        right: 400px;
+        transform: rotate(280deg);
+    }
+    70% {
+        right: 800px;
+        transform: rotate(360deg);
+    }
+    100% {
+        right: 0;
+        transform: rotate(-360deg);
+    }
+}
+
+.footer-top p>span>a,
+.footer-top p>span,
+.footer-top ul li a {
+    color: #85D6DE
+}
+
+#t-f-img {
+    border-radius: 50%;
+    margin-top: 30px
+}
+
+.footer-top ul li a {
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-top ul {
+    position: relative;
+    left: 75%;
+    bottom: 90px
+}
+
+.footer-mid {
+    border-bottom: 2px solid #2C3E50;
+    color: #758594;
+    padding: 30px 0;
+}
+
+#blog {}
+
+#blog li {
+    margin-bottom: -60px
+}
+
+#blog li:first-child img {
+    background-image: url(../img/blog2.jpg);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#blog li:last-child img {
+    background-image: url(../img/blog1.jpg);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#blog img:hover {
+    opacity: 0.5
+}
+
+#blog p {
+    ;
+    position: relative;
+    left: 90px;
+    bottom: 70px;
+    width: 300px
+}
+
+#blog p>span {
+    color: white
+}
+
+#contact {
+    line-height: 50px
+}
+
+#contact span {
+    color: white
+}
+
+#social a span:hover {
+    color: blue;
+    background-color: white;
+}
+
+#social a span {
+    border-radius: 50%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background-color: #788897;
+    color: #34495E
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #758594;
+    padding: 20px 0;
+}
